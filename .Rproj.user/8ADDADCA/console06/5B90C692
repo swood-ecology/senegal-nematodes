@@ -1,0 +1,30 @@
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-Nematodes[?1034hCT201-SWOOD:SN-Nematodes stephen.wood$ ls
+SN-Nematodes.Rproj	figures			sn_nematodes.xls
+code			figures-and-tables.docx	workflow
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-NematodesCT201-SWOOD:SN-Nematodes stephen.wood$ echo "# senegal-nematodes" >> REAMD[K[KDME.md
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-NematodesCT201-SWOOD:SN-Nematodes stephen.wood$ ls
+README.md		code			figures-and-tables.docx	workflow
+SN-Nematodes.Rproj	figures			sn_nematodes.xls
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-NematodesCT201-SWOOD:SN-Nematodes stephen.wood$ git init
+Initialized empty Git repository in /Users/stephen.wood/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-Nematodes/.git/
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-NematodesCT201-SWOOD:SN-Nematodes stephen.wood$ git add README.md
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-NematodesCT201-SWOOD:SN-Nematodes stephen.wood$ cit o[K[K[K[K[Kgit commit [K[K[K[K[K[K[Ka[Kcommit -m "First commit"
+[master (root-commit) c54bb9c] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-NematodesCT201-SWOOD:SN-Nematodes stephen.wood$ git remote add origin https://github.com/swood-ecology/sene gal-nematodes.git
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-NematodesCT201-SWOOD:SN-Nematodes stephen.wood$ git push -u origin master
+Counting objects: 3, done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 237 bytes | 237.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/swood-ecology/senegal-nematodes/pull/new/master[K
+remote: 
+To https://github.com/swood-ecology/senegal-nematodes.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-NematodesCT201-SWOOD:SN-Nematodes stephen.wood$ ls
+README.md		code			figures-and-tables.docx	workflow
+SN-Nematodes.Rproj	figures			sn_nematodes.xls
+]0;~/Box Sync/Work/Writing/Manuscripts/Unsubmitted/SN-NematodesCT201-SWOOD:SN-Nematodes stephen.wood$ git add .
